@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.12/21036
 // Filename: Otica_rio_bonito.ggsk
-// Generated 2026-08-03T22:34:09
+// Generated 2026-08-03T23:03:47
 
 function pano2vrSkin(player,base) {
 	player.addVariable('icone', 0, "", { ignoreInState: 0 , customProperty: { variableType: 0, propertyType: 0, defaultValue: "" } });
@@ -590,6 +590,54 @@ function pano2vrSkin(player,base) {
 		}
 		me._cnt_header.appendChild(me._img_logo);
 		me._cnt_menu.appendChild(me._cnt_header);
+		el=me._btn_menu_1=document.createElement('div');
+		els=me._btn_menu_1__img=document.createElement('img');
+		els.className='ggskin ggskin_svg';
+		hs='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MCA1MCIgaGVpZ2h0PSI1MHB4IiBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iNTBweCI+CiA8cGF0aCBkPSJNMjUsMkMxMi4zMTksMiwyLDEyLjMxOSwyLDI1czEwLjMxOSwyMywyMywyM3MyMy0xMC4zMTksMjMtMjNTMzcuNjgxLDIsMjUsMnogTTMzLjcxLDMyLjI5YzAuMzksMC4zOSwwLjM5LDEuMDMsMCwxLjQyIEMzMy41MSwzMy45LDMzLjI2LDM0LDMzLDM0cy0wLjUxLTAuMS0wLjcxLTAuMjlMMjUsMjYuNDJsLTcuMjksNy4yOUMxNy41MSwzMy45LDE3LjI2LDM0LDE3LDM0cy0wLjUxLTAuMS0wLjcxLT'+
+			'AuMjkgYy0wLjM5LTAuMzktMC4zOS0xLjAzLDAtMS40MkwyMy41OCwyNWwtNy4yOS03LjI5Yy0wLjM5LTAuMzktMC4zOS0xLjAzLDAtMS40MmMwLjM5LTAuMzksMS4wMy0wLjM5LDEuNDIsMEwyNSwyMy41OGw3LjI5LTcuMjkgYzAuMzktMC4zOSwxLjAzLTAuMzksMS40MiwwYzAuMzksMC4zOSwwLjM5LDEuMDMsMCwxLjQyTDI2LjQyLDI1TDMzLjcxLDMyLjI5eiIvPgo8L3N2Zz4K';
+		me._btn_menu_1__img.setAttribute('src',hs);
+		hs ='';
+		hs += 'position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;';
+		els.setAttribute('style', hs);
+		els['ondragstart']=function() { return false; };
+		el.appendChild(els);
+		el.ggSubElement = els;
+		el.ggId="BTN_MENU_1";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_svg ";
+		el.ggType='svg';
+		hs ='';
+		hs+='cursor : pointer;';
+		hs+='height : 21px;';
+		hs+='left : 217px;';
+		hs+='position : absolute;';
+		hs+='top : 12px;';
+		hs+='visibility : inherit;';
+		hs+='width : 22px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style.transformOrigin='50% 50%';
+		me._btn_menu_1.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me._btn_menu_1.onclick=function (e) {
+			me._cnt_menu.style.transition='none';
+			me._cnt_menu.style.visibility='hidden';
+			me._cnt_menu.ggVisible=false;
+		}
+		me._btn_menu_1.ggUpdatePosition=function (useTransition) {
+		}
+		me._cnt_menu.appendChild(me._btn_menu_1);
 		me.divSkin.appendChild(me._cnt_menu);
 		el=me._btn_menu=document.createElement('div');
 		els=me._btn_menu__img=document.createElement('img');
