@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.12/21036
 // Filename: Otica_rio_bonito-menu_oculto_mobile.ggsk
-// Generated 2026-08-03T23:22:05
+// Generated 2026-08-03T23:50:22
 
 function pano2vrSkin(player,base) {
 	player.addVariable('icone', 0, "", { ignoreInState: 0 , customProperty: { variableType: 0, propertyType: 0, defaultValue: "" } });
@@ -618,7 +618,7 @@ function pano2vrSkin(player,base) {
 		el=me._btn_fechar_menu=document.createElement('div');
 		els=me._btn_fechar_menu__img=document.createElement('img');
 		els.className='ggskin ggskin_svg';
-		hs='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MCA1MCIgaGVpZ2h0PSI1MHB4IiBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iNTBweCI+CiA8cGF0aCBkPSJNMjUsMkMxMi4zMTksMiwyLDEyLjMxOSwyLDI1czEwLjMxOSwyMywyMywyM3MyMy0xMC4zMTksMjMtMjNTMzcuNjgxLDIsMjUsMnogTTMzLjcxLDMyLjI5YzAuMzksMC4zOSwwLjM5LDEuMDMsMCwxLjQyIEMzMy41MSwzMy45LDMzLjI2LDM0LDMzLDM0cy0wLjUxLTAuMS0wLjcxLTAuMjlMMjUsMjYuNDJsLTcuMjksNy4yOUMxNy41MSwzMy45LDE3LjI2LDM0LDE3LDM0cy0wLjUxLTAuMS0wLjcxLT'+
+		hs='data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiB2aWV3Qm94PSIwIDAgNTAgNTAiIHdpZHRoPSI1MHB4IiBoZWlnaHQ9IjUwcHgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8cGF0aCBkPSJNMjUsMkMxMi4zMTksMiwyLDEyLjMxOSwyLDI1czEwLjMxOSwyMywyMywyM3MyMy0xMC4zMTksMjMtMjNTMzcuNjgxLDIsMjUsMnogTTMzLjcxLDMyLjI5YzAuMzksMC4zOSwwLjM5LDEuMDMsMCwxLjQyIEMzMy41MSwzMy45LDMzLjI2LDM0LDMzLDM0cy0wLjUxLTAuMS0wLjcxLTAuMjlMMjUsMjYuNDJsLTcuMjksNy4yOUMxNy41MSwzMy45LDE3LjI2LDM0LDE3LDM0cy0wLjUxLTAuMS0wLjcxLT'+
 			'AuMjkgYy0wLjM5LTAuMzktMC4zOS0xLjAzLDAtMS40MkwyMy41OCwyNWwtNy4yOS03LjI5Yy0wLjM5LTAuMzktMC4zOS0xLjAzLDAtMS40MmMwLjM5LTAuMzksMS4wMy0wLjM5LDEuNDIsMEwyNSwyMy41OGw3LjI5LTcuMjkgYzAuMzktMC4zOSwxLjAzLTAuMzksMS40MiwwYzAuMzksMC4zOSwwLjM5LDEuMDMsMCwxLjQyTDI2LjQyLDI1TDMzLjcxLDMyLjI5eiIvPgo8L3N2Zz4K';
 		me._btn_fechar_menu__img.setAttribute('src',hs);
 		hs ='';
@@ -667,7 +667,7 @@ function pano2vrSkin(player,base) {
 		el=me._btn_menu=document.createElement('div');
 		els=me._btn_menu__img=document.createElement('img');
 		els.className='ggskin ggskin_svg';
-		hs='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMCAzMCIgaGVpZ2h0PSIzMHB4IiBmaWxsPSIjRkZGRkZGIiB3aWR0aD0iMzBweCI+CiA8cGF0aCBkPSJNIDMgNyBBIDEuMDAwMSAxLjAwMDEgMCAxIDAgMyA5IEwgMjcgOSBBIDEuMDAwMSAxLjAwMDEgMCAxIDAgMjcgNyBMIDMgNyB6IE0gMyAxNCBBIDEuMDAwMSAxLjAwMDEgMCAxIDAgMyAxNiBMIDI3IDE2IEEgMS4wMDAxIDEuMDAwMSAwIDEgMCAyNyAxNCBMIDMgMTQgeiBNIDMgMjEgQSAxLjAwMDEgMS4wMDAxIDAgMSAwIDMgMjMgTCAyNyAyMyBBIDEuMDAwMSAxLjAwMDEgMCAxIDAgMjcgMjEgTC'+
+		hs='data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiB2aWV3Qm94PSIwIDAgMzAgMzAiIHdpZHRoPSIzMHB4IiBoZWlnaHQ9IjMwcHgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8cGF0aCBkPSJNIDMgNyBBIDEuMDAwMSAxLjAwMDEgMCAxIDAgMyA5IEwgMjcgOSBBIDEuMDAwMSAxLjAwMDEgMCAxIDAgMjcgNyBMIDMgNyB6IE0gMyAxNCBBIDEuMDAwMSAxLjAwMDEgMCAxIDAgMyAxNiBMIDI3IDE2IEEgMS4wMDAxIDEuMDAwMSAwIDEgMCAyNyAxNCBMIDMgMTQgeiBNIDMgMjEgQSAxLjAwMDEgMS4wMDAxIDAgMSAwIDMgMjMgTCAyNyAyMyBBIDEuMDAwMSAxLjAwMDEgMCAxIDAgMjcgMjEgTC'+
 			'AzIDIxIHoiLz4KPC9zdmc+Cg==';
 		me._btn_menu__img.setAttribute('src',hs);
 		hs ='';
@@ -678,7 +678,7 @@ function pano2vrSkin(player,base) {
 		el.ggSubElement = els;
 		el.ggId="BTN_MENU";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
-		el.ggVisible=false;
+		el.ggVisible=true;
 		el.className="ggskin ggskin_svg ";
 		el.ggType='svg';
 		hs ='';
@@ -687,7 +687,7 @@ function pano2vrSkin(player,base) {
 		hs+='left : 9px;';
 		hs+='position : absolute;';
 		hs+='top : 12px;';
-		hs+='visibility : hidden;';
+		hs+='visibility : inherit;';
 		hs+='width : 22px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
@@ -717,8 +717,8 @@ function pano2vrSkin(player,base) {
 					me._btn_menu.ggVisible=true;
 				}
 				else {
-					me._btn_menu.style.visibility="hidden";
-					me._btn_menu.ggVisible=false;
+					me._btn_menu.style.visibility=(Number(me._btn_menu.style.opacity)>0||!me._btn_menu.style.opacity)?'inherit':'hidden';
+					me._btn_menu.ggVisible=true;
 				}
 			}
 		}
