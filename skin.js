@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.1.12/21036
-// Filename: Otica_rio_bonito-menu_oculto_mobile.ggsk
-// Generated 2026-08-03T23:50:22
+// Filename: Otica_rio_bonito-menu_oculto_mobile-ok.ggsk
+// Generated 2026-08-04T14:54:17
 
 function pano2vrSkin(player,base) {
 	player.addVariable('icone', 0, "", { ignoreInState: 0 , customProperty: { variableType: 0, propertyType: 0, defaultValue: "" } });
@@ -618,7 +618,7 @@ function pano2vrSkin(player,base) {
 		el=me._btn_fechar_menu=document.createElement('div');
 		els=me._btn_fechar_menu__img=document.createElement('img');
 		els.className='ggskin ggskin_svg';
-		hs='data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiB2aWV3Qm94PSIwIDAgNTAgNTAiIHdpZHRoPSI1MHB4IiBoZWlnaHQ9IjUwcHgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8cGF0aCBkPSJNMjUsMkMxMi4zMTksMiwyLDEyLjMxOSwyLDI1czEwLjMxOSwyMywyMywyM3MyMy0xMC4zMTksMjMtMjNTMzcuNjgxLDIsMjUsMnogTTMzLjcxLDMyLjI5YzAuMzksMC4zOSwwLjM5LDEuMDMsMCwxLjQyIEMzMy41MSwzMy45LDMzLjI2LDM0LDMzLDM0cy0wLjUxLTAuMS0wLjcxLTAuMjlMMjUsMjYuNDJsLTcuMjksNy4yOUMxNy41MSwzMy45LDE3LjI2LDM0LDE3LDM0cy0wLjUxLTAuMS0wLjcxLT'+
+		hs='data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUwcHgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbD0iI0ZGRkZGRiIgd2lkdGg9IjUwcHgiIHZpZXdCb3g9IjAgMCA1MCA1MCI+CiA8cGF0aCBkPSJNMjUsMkMxMi4zMTksMiwyLDEyLjMxOSwyLDI1czEwLjMxOSwyMywyMywyM3MyMy0xMC4zMTksMjMtMjNTMzcuNjgxLDIsMjUsMnogTTMzLjcxLDMyLjI5YzAuMzksMC4zOSwwLjM5LDEuMDMsMCwxLjQyIEMzMy41MSwzMy45LDMzLjI2LDM0LDMzLDM0cy0wLjUxLTAuMS0wLjcxLTAuMjlMMjUsMjYuNDJsLTcuMjksNy4yOUMxNy41MSwzMy45LDE3LjI2LDM0LDE3LDM0cy0wLjUxLTAuMS0wLjcxLT'+
 			'AuMjkgYy0wLjM5LTAuMzktMC4zOS0xLjAzLDAtMS40MkwyMy41OCwyNWwtNy4yOS03LjI5Yy0wLjM5LTAuMzktMC4zOS0xLjAzLDAtMS40MmMwLjM5LTAuMzksMS4wMy0wLjM5LDEuNDIsMEwyNSwyMy41OGw3LjI5LTcuMjkgYzAuMzktMC4zOSwxLjAzLTAuMzksMS40MiwwYzAuMzksMC4zOSwwLjM5LDEuMDMsMCwxLjQyTDI2LjQyLDI1TDMzLjcxLDMyLjI5eiIvPgo8L3N2Zz4K';
 		me._btn_fechar_menu__img.setAttribute('src',hs);
 		hs ='';
@@ -667,8 +667,10 @@ function pano2vrSkin(player,base) {
 		el=me._btn_menu=document.createElement('div');
 		els=me._btn_menu__img=document.createElement('img');
 		els.className='ggskin ggskin_svg';
-		hs='data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiB2aWV3Qm94PSIwIDAgMzAgMzAiIHdpZHRoPSIzMHB4IiBoZWlnaHQ9IjMwcHgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiA8cGF0aCBkPSJNIDMgNyBBIDEuMDAwMSAxLjAwMDEgMCAxIDAgMyA5IEwgMjcgOSBBIDEuMDAwMSAxLjAwMDEgMCAxIDAgMjcgNyBMIDMgNyB6IE0gMyAxNCBBIDEuMDAwMSAxLjAwMDEgMCAxIDAgMyAxNiBMIDI3IDE2IEEgMS4wMDAxIDEuMDAwMSAwIDEgMCAyNyAxNCBMIDMgMTQgeiBNIDMgMjEgQSAxLjAwMDEgMS4wMDAxIDAgMSAwIDMgMjMgTCAyNyAyMyBBIDEuMDAwMSAxLjAwMDEgMCAxIDAgMjcgMjEgTC'+
-			'AzIDIxIHoiLz4KPC9zdmc+Cg==';
+		hs='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgJy0vL1czQy8vRFREIFNWRyAxLjEvL0VOJyAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz4KPCEtLSBDcmVhdG9yOiBDb3JlbERSQVcgMjAyNiAtLT4KPHN2ZyBzdHlsZT0ic2hhcGUtcmVuZGVyaW5nOmdlb21ldHJpY1ByZWNpc2lvbjsgdGV4dC1yZW5kZXJpbmc6Z2VvbWV0cmljUHJlY2lzaW9uOyBpbWFnZS1yZW5kZXJpbmc6b3B0aW1pemVRdWFsaXR5OyBmaWxsLXJ1bGU6ZXZlbm9kZDsgY2xpcC1ydWxlOmV2ZW5vZGQiIGhlaWdodD0iMjRweC'+
+			'IgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4b2RtPSJodHRwOi8vd3d3LmNvcmVsLmNvbS9jb3JlbGRyYXcvb2RtLzIwMDMiIHdpZHRoPSIyNHB4IiB2aWV3Qm94PSIwIDAgMjMuOTMgMjMuOTMiPgogPGRlZnM+CiAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KICAgIC5zdHIwIHtzdHJva2U6IzM3MzQzNTtzdHJva2Utd2lkdGg6MC4xO3N0cm9rZS1taXRlcmxpbWl0OjIyLjkyNTZ9CiAgICAuc3RyMSB7c3Ryb2tlOiNGRUZFRkU7'+
+			'c3Ryb2tlLXdpZHRoOjEuNzc7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjIyLjkyNTZ9CiAgICAuZmlsMSB7ZmlsbDpub25lfQogICAgLmZpbDAge2ZpbGw6IzAyMjg1N30KICAgPC9zdHlsZT4KIDwvZGVmcz4KIDxnIGlkPSJDYW1hZGFfeDAwMjBfMSI+CiAgPG1ldGFkYXRhIGlkPSJDb3JlbENvcnBJRF8wQ29yZWwtTGF5ZXIiLz4KICA8Y2lyY2xlIGNsYXNzPSJmaWwwIHN0cjAiIHI9IjExLjkxIiBjeD0iMTEuOTYiIGN5PSIxMS45NiIvPgogIDxsaW5lIHgyPSIxOS4wNiIgY2xhc3M9ImZpbDEgc3RyMSIgeTI9IjE3LjI5IiB5MT'+
+			'0iMTcuMjkiIHgxPSI0Ljg2Ii8+CiAgPGxpbmUgeDI9IjE5LjA2IiBjbGFzcz0iZmlsMSBzdHIxIiB5Mj0iMTEuOTYiIHkxPSIxMS45NiIgeDE9IjQuODYiLz4KICA8bGluZSB4Mj0iMTkuMDYiIGNsYXNzPSJmaWwxIHN0cjEiIHkyPSI2LjY0IiB5MT0iNi42NCIgeDE9IjQuODYiLz4KIDwvZz4KPC9zdmc+Cg==';
 		me._btn_menu__img.setAttribute('src',hs);
 		hs ='';
 		hs += 'position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;';
@@ -682,13 +684,12 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_svg ";
 		el.ggType='svg';
 		hs ='';
-		hs+='cursor : pointer;';
-		hs+='height : 21px;';
+		hs+='height : 24px;';
 		hs+='left : 9px;';
 		hs+='position : absolute;';
 		hs+='top : 12px;';
 		hs+='visibility : inherit;';
-		hs+='width : 22px;';
+		hs+='width : 24px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style.transformOrigin='50% 50%';
@@ -698,31 +699,6 @@ function pano2vrSkin(player,base) {
 		el.ggElementNodeId=function() {
 			return player.getCurrentNode();
 		}
-		me._btn_menu.logicBlock_visible = function() {
-			var newLogicStateVisible;
-			if (
-				((player.getViewerSize(true).width <= 900))
-			)
-			{
-				newLogicStateVisible = 0;
-			}
-			else {
-				newLogicStateVisible = -1;
-			}
-			if (me._btn_menu.ggCurrentLogicStateVisible != newLogicStateVisible) {
-				me._btn_menu.ggCurrentLogicStateVisible = newLogicStateVisible;
-				me._btn_menu.style.transition='';
-				if (me._btn_menu.ggCurrentLogicStateVisible == 0) {
-					me._btn_menu.style.visibility=(Number(me._btn_menu.style.opacity)>0||!me._btn_menu.style.opacity)?'inherit':'hidden';
-					me._btn_menu.ggVisible=true;
-				}
-				else {
-					me._btn_menu.style.visibility=(Number(me._btn_menu.style.opacity)>0||!me._btn_menu.style.opacity)?'inherit':'hidden';
-					me._btn_menu.ggVisible=true;
-				}
-			}
-		}
-		me._btn_menu.logicBlock_visible();
 		me._btn_menu.onclick=function (e) {
 			me._cnt_menu.ggVisible = !me._cnt_menu.ggVisible;
 			var flag=me._cnt_menu.ggVisible;
@@ -733,7 +709,6 @@ function pano2vrSkin(player,base) {
 		}
 		me.divSkin.appendChild(me._btn_menu);
 		me._cnt_menu.logicBlock_visible();
-		me._btn_menu.logicBlock_visible();
 		player.addListener('activehotspotchanged', function(event) {
 			for(var i = 0; i < me._cln_cenas.ggInstances.length; i++) {
 				me._cln_cenas.ggInstances[i].ggEvent_activehotspotchanged(event);
@@ -762,7 +737,6 @@ function pano2vrSkin(player,base) {
 		});
 		player.addListener('sizechanged', function(event) {
 			me._cnt_menu.logicBlock_visible();
-			me._btn_menu.logicBlock_visible();
 		});
 		player.addListener('varchanged_ht_ani', function(event) {
 			if (hotspotTemplates.hasOwnProperty('HT_SETA')) {
